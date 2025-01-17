@@ -140,7 +140,6 @@ body{
     font-size: 40px;
     grid-column: 1 ;
     grid-row: 1;
-
 }
 
 /*-Texto 1-*/
@@ -379,8 +378,6 @@ body{
     margin-top: 40px;
 }
 
-
-
 /*-Section 4-*/
 /*--Section 4--*/
 .s4{
@@ -576,7 +573,7 @@ body{
 /*-Contato-*/
 .ctt{
     font-size: 65px;
-    margin: 75px 0 0 150px;;
+    margin: 75px 0 0 150px;
 }
 
 /*-Box 8-1-*/
@@ -587,11 +584,16 @@ body{
     margin: 50px auto 100px;
 }
 
+.e{
+    width: 75px;
+}
+
 /*-Foto contato-*/
 .ftctt{
     width: 75px;
     height: 75px;
-    
+    text-decoration: none;
+    font-size: 0;
 }
 
 /*Link contato*/
@@ -605,7 +607,7 @@ body{
 }
 
 /*-Link contato hover-*/
-.actt:hover{
+.actt:hover ,.ftctt:hover{
     cursor: pointer;
     color: #848484;
 }
@@ -682,16 +684,416 @@ footer{
     justify-content: center;
 }
 
-/*-span footer-*/
+/*-Span footer-*/
 .nc{
     color: #681cff;
     text-shadow: #681cff 0px 0px 5px;
     margin-left: 7px;
 }
 
-/*-span hover-*/
+/*-Span hover-*/
 .nc:hover{
     color: #8c52ff; 
     text-shadow: #8C52FF 0px 0px 5px;
     transition: 0.5s;;
+}
+
+
+/*--Media Querys--*/
+/*Tablet*/
+@media screen and (max-width: 1200px){
+    
+}
+
+/*Smartphone*/
+@media screen and (max-width: 760px){
+    
+    /*--Header--*/
+    /*-Header-*/
+    .header{
+        height: 200px;
+    }
+
+    /*-Foto header-*/
+    .SRR{
+        width: 75vw;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    /*--Section 1--*/
+    /*-Box 1-1-*/
+    .box1-1{
+        margin-top: 10px;
+    }
+
+    /*-Card-*/
+    .card {
+        width: 70vw;
+        margin-top: 40px;
+    }
+
+    /*-Quadradinhos-*/
+    .qd{
+        width: 40px;
+        height: 40px;
+    }
+
+    /*-Titulo box 1-1-*/
+    .tb1{
+        width: 50vw;
+        font-size: 21px;
+    }
+
+    /*-Texto box 1-1-*/
+    .txtb1{
+        width: 190px;
+        font-size: 18px;
+    }
+
+    /*-Box 2-*/
+    .box2-1{
+        width: 75%;
+    }
+
+    /*-Titulo 1-*/
+    .t1{
+        width: 60vw;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    /*-Texto 1-*/
+    .txt1{
+        width: 60vw;
+        margin-bottom: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*-F1 in schools-*/
+    .F1schools{
+        grid-column: 1;
+        grid-row: 3;
+        margin-bottom: 50px;
+    }
+
+    /*--Section 2--*/
+    /*-titulo 2-*/
+    .t2{
+        width: 90vw;
+        font-size: 40px;
+        margin: 60px auto;
+    }
+
+    /*--Box 3--*/
+    /*-Box 3-*/
+    .box3{
+        width:95vw;
+        gap: 15px;
+        margin-bottom: 60px;
+    }
+
+    /*-Box pequena-*/
+    .bp{
+        width: 45vw;
+        height: 85vw;
+    }
+
+    /*-Box grande-*/
+    .bg{
+        width: 95vw;
+        height: 250px;
+    }
+
+    /*-Box gigante-*/
+    .bgg{
+        width: 95vw;
+        height: 300px;
+    }
+
+    /*-Alinhamento-*/
+    .box3-1-1{
+        grid-column: 1;
+        grid-row: 1 ;
+    }
+
+    .box3-1-2{
+        grid-column: 2;
+        grid-row: 1 ;
+    }
+
+    .box3-1-3{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .box3-1-4{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .box3-1-5{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .box3-1-6{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .box3-1-7{
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
+
+    .box3-1-8{
+        margin-top: 3px;
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+
+    .box3-1-9{
+        margin-top: 270px;
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+
+    .box3-1-10{
+        grid-column:  1 / span 2;
+        grid-row: 6;
+    }
+
+    /*-Foto integrante-*/
+    .fti{
+        width: 35vw;
+        margin: 4vw 4vw 0;
+    }
+
+    /*-Nome Empreendimento, Engenharia, Gestão de Projetos-*/
+    .fteeg{
+        width: 85vw;
+        height: 46vw;
+        margin: 10px 4vw 5px;
+    }
+
+    /*-Foto srr-*/
+    .ftsrr{
+        width: 85vw;
+        height: 50vw;
+        margin: 10px 4vw 5px;
+    }
+
+    /*--Section 3--*/
+    /*-Titulo 4-*/
+    .t4{
+        width: 80%;
+        margin: 75px auto 30px;
+        font-size: 38px;
+        text-align: left;
+    }
+
+    /*-Box 5-1-*/
+    .box5-1{
+        width: 80%;
+        display: block;
+        margin: 40px auto 75px;
+    }
+
+    /*-foto box 5-*/
+    .ftb5{
+        width: 100%;
+        height: 40vw;
+        border-radius: 18px;
+    }
+
+    /*-Box 5-2-*/
+    .box5-2{
+        width: 80%;
+        gap: 30px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .txtb2-5{
+        margin-left: 10px;
+    }
+
+    /*-Section 4-*/
+    /*-Projeto social-*/
+    .ps{
+        font-size: 30px;
+    }
+
+    /*-Texto box 6-*/
+    .txtb6{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    /*-Box 6-1-*/
+    .box6-1{
+        gap: 15px;
+    }
+    
+    /*fotos tijolos do amannha*/
+    .fttda1{
+        width: 30vw;
+        height: 27vw;
+        grid-column: 1;
+        grid-row: 1;
+        margin-bottom: 20px;
+    }
+    
+    .fttda2{
+        width: 45vw;
+        height: 23vw;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .fttda3{
+        width: 30vw;
+        height: 23vw;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .fttda4{
+        width: 25vw;
+        height: 25vw;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .fttda5{
+        width: 50vw;
+        height: 25vw;
+        grid-column: 2;
+        grid-row: 3;
+        margin-left: -20vw;
+    }
+    
+    /*--Section 5--*/
+    /*-momentos da equipe-*/
+    .mtns{
+        font-size: 30px;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    /*-Foto da equipe-*/
+    .mtns1{
+        width: 100%;
+        height: 30vw;
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    .mtns2{
+        width: 100%;
+        height: 20vw;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .mtns3{
+        width: 100%;
+        height: 20vw;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .mtns4{
+        width: 100%;
+        height: 20vw;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .mtns5{
+        width: 100%;
+        height: 30vw;
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
+
+    .mtns6{
+        width: 100%;
+        height: 20vw;
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .mtns7{
+        width: 100%;
+        height: 20vw;
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .mtns8{
+        width: 100%;
+        height: 20vw;
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    .mtns9{
+        width: 0%;
+        height: 0;
+        grid-column: 1;
+    }
+
+    /*--Box 8--*/
+    /*-Contato-*/
+    .ctt{
+        font-size: 40px;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    /*-Box 8-1-*/
+    .box8-1{
+        width:80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px auto 60px;
+    }
+
+    .e{
+        width: 50px;
+    }
+
+    /*-Foto contato-*/
+    .ftctt{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    /*Link contato*/
+    .actt{
+        display: none;
+    }
+    
+    /*--Rodapé--*/
+    /*Patrocinadores-*/
+    .patrocinadores{
+        margin-top: 50px;
+    }
+
+    /*-Foto patrocinadores-*/
+    .ft-pt{
+        width: 70px;
+        height: 50px;
+    }
+
+    /*-ftr-*/
+    .ftr{
+        font-size: 15px;
+        text-align: center;
+
+    }
 }
