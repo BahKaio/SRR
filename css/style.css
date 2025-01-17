@@ -729,7 +729,7 @@ footer{
 
     /*-Card-*/
     .card {
-        width: 70vw;
+        width: 65vw;
         margin-top: 40px;
     }
 
@@ -874,14 +874,14 @@ footer{
     /*-Nome Empreendimento, Engenharia, Gestão de Projetos-*/
     .fteeg{
         width: 85vw;
-        height: 46vw;
+        height: 45vw;
         margin: 10px 4vw 5px;
     }
 
     /*-Foto srr-*/
     .ftsrr{
         width: 85vw;
-        height: 50vw;
+        height: 49vw;
         margin: 10px 4vw 5px;
     }
 
@@ -978,8 +978,9 @@ footer{
     /*--Section 5--*/
     /*-momentos da equipe-*/
     .mtns{
+        width: 80%;
         font-size: 30px;
-        margin: 40px 0;
+        margin: 40px auto;
         text-align: center;
     }
 
@@ -1094,6 +1095,6 @@ footer{
     .ftr{
         font-size: 15px;
         text-align: center;
-
+        margin-bottom: 50px;
     }
 }
