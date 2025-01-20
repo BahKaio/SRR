@@ -6,7 +6,7 @@
     overflow-x: hidden;
     box-sizing: border-box;
     cursor: default;
-    font-family: Helvetica;
+    font-family: poppins;
 }
 
 
@@ -17,6 +17,16 @@ body{
     background-repeat: no-repeat;
 }
 
+/*--Fontes--*/
+@font-face {
+    font-family: league;
+    src: url(../Fontes/LeagueGothic-Regular-VariableFont_wdth.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../Fontes/Poppins-Regular.ttf);
+}
 
 /*--Scrollbar--*/
 ::-webkit-scrollbar{
@@ -95,6 +105,7 @@ body{
     width: 40px;
     height: 40px;
     background-color: #500202;
+    font-family: helvetica;
     font-size: 30px;
     font-weight: bold;
     border-radius: 10px;
@@ -108,7 +119,9 @@ body{
 .tb1{
     width: 250px;
     margin: -40px 0 20px 50px;
-    font-weight: bold;
+    font-family: league;
+    font-weight: normal;
+    font-size: 45px;
 }
 
 /*-Texto box 1-1-*/
@@ -137,7 +150,9 @@ body{
 .t1{
     color: #ffffff;
     width: 550px;
-    font-size: 40px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 60px;
     grid-column: 1 ;
     grid-row: 1;
 }
@@ -157,6 +172,7 @@ body{
 .F1schools{
     width: 350px;
     height: 150px;
+    margin-top: 20px;
     grid-column: 2;
     grid-row: 1/ span 2;
 }
@@ -171,16 +187,18 @@ body{
 
 /*-titulo 2-*/
 .t2{
-    font-size: 70px;
-    font-weight: bolder;
+    font-family: league;
+    font-weight: normal;
+    font-size: 90px;
     text-align: center;
-    margin: 40px auto;
+    margin: 60px auto;
 }
 
 /*--Box 3--*/
 /*-Box 3-*/
 .box3{
-    width:1250px;
+    width: 85vw;
+    max-width: 1250px;
     height: auto;
     display: grid;
     gap: 25px;
@@ -206,8 +224,7 @@ body{
 }
 
 /*-Box gigante-*/
-.bgg{
-    width: 1250px;
+.bgg{width: 1250px;
     height: 500px;
     background-color: #000000;
     border: solid 5px #ffffff;
@@ -344,7 +361,9 @@ body{
 .t4{
     width: 80%;
     margin: 75px auto 30px;
-    font-size: 55px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 70px;
     text-align: left;
 }
 
@@ -395,7 +414,9 @@ body{
 
 /*-Projeto social-*/
 .ps{
-    font-size: 35px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 85px;
     margin-bottom: 20px;
 }
 
@@ -474,7 +495,9 @@ body{
 
 /*-momentos da equipe-*/
 .mtns{
-    font-size: 45px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 75px;
     margin: 60px 0 40px 85px;
 }
 
@@ -572,7 +595,9 @@ body{
 
 /*-Contato-*/
 .ctt{
-    font-size: 65px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 100px;
     margin: 75px 0 0 150px;
 }
 
@@ -678,7 +703,6 @@ footer{
     height: 7svh;
     color: #ffffff;
     font-size: 20px;
-    font-weight: bold;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -687,21 +711,21 @@ footer{
 /*-Span footer-*/
 .nc{
     color: #681cff;
-    text-shadow: #681cff 0px 0px 5px;
+    text-shadow: #681cff 0px 0px 10px;
     margin-left: 7px;
 }
 
 /*-Span hover-*/
 .nc:hover{
     color: #8c52ff; 
-    text-shadow: #8C52FF 0px 0px 5px;
+    text-shadow: #8C52FF 0px 0px 10px;
     transition: 0.5s;;
 }
 
 
 /*--Media Querys--*/
 /*Tablet*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     
 }
 
@@ -742,7 +766,7 @@ footer{
     /*-Titulo box 1-1-*/
     .tb1{
         width: 50vw;
-        font-size: 21px;
+        font-size: 40px;
     }
 
     /*-Texto box 1-1-*/
@@ -759,7 +783,7 @@ footer{
     /*-Titulo 1-*/
     .t1{
         width: 60vw;
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
     }
  
@@ -782,7 +806,7 @@ footer{
     /*-titulo 2-*/
     .t2{
         width: 90vw;
-        font-size: 40px;
+        font-size: 60px;
         margin: 60px auto;
     }
 
@@ -797,19 +821,19 @@ footer{
     /*-Box pequena-*/
     .bp{
         width: 45vw;
-        height: 85vw;
+        height: 86vw;
     }
 
     /*-Box grande-*/
     .bg{
         width: 95vw;
-        height: 250px;
+        height: 265px;
     }
 
     /*-Box gigante-*/
     .bgg{
         width: 95vw;
-        height: 300px;
+        height: 320px;
     }
 
     /*-Alinhamento-*/
@@ -855,7 +879,7 @@ footer{
     }
 
     .box3-1-9{
-        margin-top: 270px;
+        margin-top: 285px;
         grid-column: 1 / span 2;
         grid-row: 5;
     }
@@ -890,7 +914,7 @@ footer{
     .t4{
         width: 80%;
         margin: 75px auto 30px;
-        font-size: 38px;
+        font-size: 55px;
         text-align: left;
     }
 
@@ -923,7 +947,7 @@ footer{
     /*-Section 4-*/
     /*-Projeto social-*/
     .ps{
-        font-size: 30px;
+        font-size: 50px;
     }
 
     /*-Texto box 6-*/
@@ -951,6 +975,7 @@ footer{
         height: 23vw;
         grid-column: 1;
         grid-row: 2;
+        border-radius: 15px;
     }
     
     .fttda3{
@@ -958,6 +983,7 @@ footer{
         height: 23vw;
         grid-column: 2;
         grid-row: 2;
+        border-radius: 15px;
     }
     
     .fttda4{
@@ -965,6 +991,7 @@ footer{
         height: 25vw;
         grid-column: 1;
         grid-row: 3;
+        border-radius: 15px;
     }
     
     .fttda5{
@@ -973,13 +1000,14 @@ footer{
         grid-column: 2;
         grid-row: 3;
         margin-left: -20vw;
+        border-radius: 15px;
     }
     
     /*--Section 5--*/
     /*-momentos da equipe-*/
     .mtns{
         width: 80%;
-        font-size: 30px;
+        font-size: 40px;
         margin: 40px auto;
         text-align: center;
     }
@@ -987,56 +1015,64 @@ footer{
     /*-Foto da equipe-*/
     .mtns1{
         width: 100%;
-        height: 30vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 1 / span 2;
         grid-row: 1;
     }
 
     .mtns2{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 1;
         grid-row: 2;
     }
 
     .mtns3{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 2;
         grid-row: 2;
     }
 
     .mtns4{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 1;
         grid-row: 3;
     }
 
     .mtns5{
         width: 100%;
-        height: 30vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 1 / span 2;
         grid-row: 4;
     }
 
     .mtns6{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 2;
         grid-row: 3;
     }
 
     .mtns7{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 1;
         grid-row: 5;
     }
 
     .mtns8{
         width: 100%;
-        height: 20vw;
+        height: 15vw;
+        border-radius: 10px;
         grid-column: 2;
         grid-row: 5;
     }
@@ -1050,9 +1086,9 @@ footer{
     /*--Box 8--*/
     /*-Contato-*/
     .ctt{
-        font-size: 40px;
+        font-size: 60px;
         text-align: center;
-        margin: 50px 0;
+        margin: 50px 0 0;
     }
 
     /*-Box 8-1-*/
