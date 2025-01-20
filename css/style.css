@@ -331,9 +331,11 @@ body{
 
 /*-Nome SRR-*/
 .nmsrr{
-    font-size: 42px;
+    font-family: league;
+    font-weight: normal;
+    font-size: 60px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
