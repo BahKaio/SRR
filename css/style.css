@@ -1221,6 +1221,18 @@ footer{
         margin-bottom: 0px;
     }
 
+    .insta-membro > p, .lnk-membro > p{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 7px;
+    }
+
+    /*-Imagem rede social dos membros-*/
+.img-rs{
+    margin-left: 10px;
+}
+    
+
     /*-Alinhamento-*/
     .box3-1-1{
         grid-column: 1;
@@ -1351,7 +1363,7 @@ footer{
     /*-Foto patrocinadores-*/
     .ft-pt{
         width: 70px;
-        height: 50px;
+        height: 40px;
     }
 
     /*-ftr-*/
