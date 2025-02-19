@@ -257,16 +257,19 @@ body{
 .box3-1-7{
     grid-column:  1;
     grid-row: 3;
+    height: 520px;
 }
 
 .box3-1-8{
     grid-column:  2;
     grid-row: 3;
+    height: 520px;
 }
 
 .box3-1-9{
     grid-column:  3;
     grid-row: 3;
+    height: 520px;
 }
 
 .box3-1-10{
@@ -310,6 +313,8 @@ body{
 /*-Frase da pessoa-*/
 .fp{
     text-align: center;
+    width: 250px;
+    margin-left: 3vw;
 }
 
 /*-Nome SRR-*/
@@ -410,7 +415,7 @@ body{
 /*-foto box 5-*/
 .ftb5{
     width: 100%;
-    height: 400px;
+    height: 100%;
     border-radius: 25px;
     margin-top: 30px;
 }
@@ -533,7 +538,7 @@ body{
     height: 11vw;
     border-radius: 25px;
     grid-column: 1 / span 3;
-    grid-row: 1;
+    grid-row: 2;
 }
 
 .mtns2{
@@ -541,7 +546,7 @@ body{
     height: 10vw;
     border-radius: 25px;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
 }
 
 .mtns3{
@@ -549,7 +554,7 @@ body{
     height: 10vw;
     border-radius: 25px;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
 }
 
 .mtns4{
@@ -557,16 +562,9 @@ body{
     height: 10vw;
     border-radius: 25px;
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
 }
 
-.mtns5{
-    width: 100%;
-    height: 10vw;
-    border-radius: 25px;
-    grid-column: 1 / span 2;
-    grid-row: 3;
-}
 
 .mtns6{
     width: 100%;
@@ -578,28 +576,20 @@ body{
 
 .mtns7{
     width: 100%;
-    height: 12vw;
+    height: 10vw;
     border-radius: 25px;
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 .mtns8{
     width: 100%;
-    height: 12vw;
+    height: 10vw;
     border-radius: 25px;
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 3;
 }
 
-.mtns9{
-    width: 100%;
-    height: 8vw;
-    border-radius: 25px;
-    grid-column: 3;
-    grid-row: 4;
-    margin-top: 30px;
-}
 
 /*--Box 8--*/
 /*-Box 8-*/
