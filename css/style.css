@@ -897,6 +897,7 @@ footer{
     /*-Frase da pessoa-*/
     .fp{
         font-size: 10px;
+        width: 30vw;
         text-align: center;
     }
 
