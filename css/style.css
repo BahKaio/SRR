@@ -783,8 +783,8 @@ footer{
 
     /*-F1 in schools-*/
     .F1schools{
-        width: 450px;
-        height: 200px;
+        width: 400px;
+        height: 250px;
         margin: 20px auto 60px;
     }
 
@@ -848,17 +848,20 @@ footer{
     .box3-1-7{
         grid-column: 1;
         grid-row: 4;
+        height: 600px;
     }
 
     .box3-1-8{
         grid-column: 2;
         grid-row: 4;
+        height: 600px;
     }
 
     .box3-1-9{
         grid-column: 1/ span 2;
         grid-row: 5;
         margin: 0 auto;
+        height: 600px;
     }
 
     .box3-1-10{
@@ -896,6 +899,7 @@ footer{
 
     /*-Frase da pessoa-*/
     .fp{
+        margin: 0 auto;
         text-align: center;
     }
 
@@ -915,7 +919,7 @@ footer{
     /*-foto box 5-*/
     .ftb5{
         width: 100%;
-        height: 40vw;
+        height: 10vw;
         border-radius: 18px;
     }
     /*-Section 4-*/
@@ -937,8 +941,8 @@ footer{
     
     /*fotos tijolos do amannha*/
     .fttda1{
-        width: 30vw;
-        height: 27vw;
+        width: 40vw;
+        height: 20vw;
         grid-column: 1;
         grid-row: 1;
         margin-bottom: 20px;
