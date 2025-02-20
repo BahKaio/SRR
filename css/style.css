@@ -207,7 +207,7 @@ body{
 /*-Box pequena-*/
 .bp{
     width: 350px;
-    height: 620px;
+    height: 650px;
     background-color: #000000;
     border: solid 5px #ffffff;
     border-radius: 25px;
@@ -275,6 +275,14 @@ body{
 .box3-1-10{
     grid-column:  1/ span 3;
     grid-row: 4;
+}
+
+.box3-1-6 .fp{
+    margin-top: 25px;
+}
+
+.box3-1-6 .insta-membro{
+    margin-top: 25px;
 }
 
 /*-Foto integrante-*/
@@ -805,7 +813,7 @@ footer{
     /*-Box pequena-*/
     .bp{
         width: 40vw;
-        height: 780px;
+        height: 750px;
     }
 
     /*-Box gigante-*/
